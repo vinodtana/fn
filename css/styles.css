@@ -26,7 +26,7 @@
 /*      15. RESPONSIVE STYLING
 /*
 /*========================================================================*/
-@import 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700';
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 /**
  * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
  * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
@@ -212,7 +212,7 @@ textarea {
 /* 01. GENERAL STYLING  */
 /***********************************************************************************************/
 body {
-  font: 14px/24px 'Poppins', sans-serif;
+  font: 14px/24px "Poppins", sans-serif;
   color: #333333;
   font-style: normal;
   font-weight: 300;
@@ -235,7 +235,7 @@ a:focus {
   text-decoration: none;
 }
 blockquote {
-  font: 'Poppins', sans-serif;
+  font: "Poppins", sans-serif;
   color: #333333;
 }
 h1,
@@ -244,7 +244,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   color: #24262a;
@@ -290,10 +290,10 @@ ul,
 li {
   list-style-type: none;
 }
-input[type=text],
-input[type=password],
-input[type=submit],
-input[type=button],
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="button"],
 textarea {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -305,10 +305,10 @@ textarea {
   -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
-input[type=text]:focus,
-input[type=password]:focus,
-input[type=submit]:focus,
-input[type=button]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="submit"]:focus,
+input[type="button"]:focus,
 textarea:focus {
   -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
@@ -353,17 +353,17 @@ strong {
 }
 #backTop:after {
   position: absolute;
-  content: '-';
+  content: "-";
   width: 16px;
   height: 16px;
   text-align: center;
   top: 0;
   left: 0;
-  color: #FFF;
+  color: #fff;
 }
 #backTop.custom {
   background-color: #f69323;
-  background-image: url('../images/uparr-48-b.png');
+  background-image: url("../images/uparr-48-b.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -486,8 +486,8 @@ blockquote {
   padding: 12px 26px 26px 42px;
   margin: 0 0 20px;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
-  background: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
   position: relative;
   border: 1px solid #dfdfdf;
   border-left: 4px solid #606060;
@@ -510,7 +510,7 @@ blockquote:before {
   left: 12px;
   top: 14px;
   content: "\f10d";
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   font-size: 15px;
   color: #d6d6d6;
   font-style: normal;
@@ -520,7 +520,7 @@ blockquote:before {
   -moz-osx-font-smoothing: grayscale;
 }
 blockquote.testimonial {
-  background: #FFFFFF;
+  background: #ffffff;
   border-top: 1px solid #dfdfdf;
   border-right: 1px solid #dfdfdf;
   border-bottom: 1px solid #dfdfdf;
@@ -583,7 +583,7 @@ ol li {
   line-height: 1.1em;
   position: relative;
   margin-bottom: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   display: inline-block;
   color: #24262a;
@@ -593,11 +593,11 @@ ol li {
   color: #24262a;
 }
 .section-heading-alt {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .section-heading-alt span {
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .section-subheading {
   font-size: 17px;
@@ -608,7 +608,7 @@ ol li {
   padding: 0px 42px;
 }
 .section-subheading-alt {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .accordion .panel {
   margin-bottom: 3px;
@@ -649,7 +649,7 @@ span.label {
 }
 .btn-dynamism:hover {
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .btn-custom {
   text-align: center;
@@ -659,7 +659,7 @@ span.label {
   transition: all 0.2s ease-out;
   border: 1px solid #f69323;
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -671,7 +671,7 @@ span.label {
 .btn-custom:hover {
   border-color: #b9b9b9;
   color: #f69323;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .btn-custom-inverse {
   text-align: center;
@@ -681,7 +681,7 @@ span.label {
   transition: all 0.2s ease-out;
   border: 1px solid #dfdfdf;
   color: #f69323;
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -692,7 +692,7 @@ span.label {
 }
 .btn-custom-inverse:hover {
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 a.btn-load-more {
   margin-top: 32px;
@@ -705,7 +705,7 @@ a.btn-load-more {
   background-clip: padding-box;
   background: transparent;
   color: #f69323;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 2px solid #f69323;
   padding: 12px 24px;
   font-weight: 600;
@@ -717,7 +717,7 @@ a.btn-load-more {
   transition: all 0.2s ease-out;
 }
 a.btn-load-more:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background: #f69323;
 }
 .button {
@@ -754,7 +754,7 @@ a.btn-load-more:hover {
   color: #f69323;
 }
 .text-highlighter-white {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 #comment_btn {
   -webkit-border-radius: 0px;
@@ -800,7 +800,7 @@ a.btn-load-more:hover {
 }
 .sticky {
   margin-bottom: 21px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 /*------------------------------ Gallery Caption  ---------------------------------*/
 /*------------------------------ By Post Author ---------------------------------*/
@@ -815,12 +815,12 @@ a.btn-load-more:hover {
   background: rgba(0, 0, 0, 0.4);
 }
 .main-header .navgiation-wrapper {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .main-header .top-bar {
   background: rgba(0, 0, 0, 0.7);
   line-height: 38px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 14px;
 }
 .main-header .top-bar i {
@@ -829,7 +829,7 @@ a.btn-load-more:hover {
   display: inline-block;
 }
 .main-header .top-bar a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .main-header .top-phone-no {
   display: inline-block;
@@ -840,10 +840,10 @@ a.btn-load-more:hover {
 }
 .main-header .top-donate-btn {
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 10px 16px;
   font-size: 15px;
-  border: 0px solid #FFF;
+  border: 0px solid #fff;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 600;
@@ -855,7 +855,7 @@ a.btn-load-more:hover {
   background-clip: padding-box;
 }
 .main-header .top-donate-btn i.fa {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .main-header .top-donate-btn:hover {
   color: #f69323;
@@ -880,7 +880,7 @@ a.btn-load-more:hover {
   margin-bottom: 0;
 }
 .header-container {
-  border-bottom: 0px solid #EEEEEE;
+  border-bottom: 0px solid #eeeeee;
   padding-bottom: 0px;
   box-shadow: 0px 0px 2px -4px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.2s ease-out;
@@ -919,7 +919,7 @@ a.btn-load-more:hover {
 }
 .repair-header-top .repair-icon-box .text {
   font-size: 16px;
-  letter-spacing: .03px;
+  letter-spacing: 0.03px;
 }
 .repair-header-top .repair-icon-box .text .head-heading {
   font-size: 15px;
@@ -950,7 +950,7 @@ a.btn-load-more:hover {
 }
 .repair-header-top .btn-quote .btn-request_quote:hover {
   background: #dd7a09;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 /***********************************************************************************************/
 /* 03. MAIN NAVIGATION MENU */
@@ -972,7 +972,7 @@ a.logo img {
   padding: 0px;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #FFF;
+  color: #fff;
   font-size: 13px;
   font-weight: 500;
   padding: 20px 25px;
@@ -994,7 +994,7 @@ a.logo img {
   background: #f69323;
 }
 .navbar-default .navbar-nav > li > a:hover {
-  color: #EEEEEE;
+  color: #eeeeee;
   background: #f69323;
 }
 .navbar-default .navbar-nav li.drop {
@@ -1040,7 +1040,7 @@ a.logo img {
   display: inline-block;
   text-decoration: none;
   display: block;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 13px;
   padding: 12px 20px;
   text-transform: uppercase;
@@ -1051,7 +1051,7 @@ a.logo img {
 }
 .navbar-default .navbar-nav li ul.drop-down li a:hover {
   background: rgba(0, 0, 0, 0.8);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .navbar-default .navbar-nav li ul.drop-down li:hover ul.drop-down.level3 {
   -webkit-transform: rotateX(0deg);
@@ -1110,7 +1110,7 @@ header.one-page .navbar-nav > li > a span {
 .navbar .social-icons a:hover {
   border: 1px solid #f69323;
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .navbar .social-icons a.margin-right-0 {
   margin-right: 0px;
@@ -1184,7 +1184,7 @@ hr.space {
   transition: all 0.2s ease-out;
 }
 .highlight-block .highlight-block-inner {
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 24px;
 }
 .highlight-block .highlight-block-inner > i {
@@ -1205,7 +1205,7 @@ hr.space {
 }
 .highlight-block .highlight-block-inner a {
   bottom: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   background: #f69323;
   float: right;
   padding: 10px 15px;
@@ -1236,7 +1236,7 @@ hr.space {
   transition: all 0.2s ease-out;
 }
 .highlights-block2 .highlights-block2-inner {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .highlights-block2 .highlights-block2-inner .highlights-thumbnail img {
   vertical-align: middle;
@@ -1271,13 +1271,13 @@ hr.space {
 }
 .section-content-block {
   padding: 80px 0 80px 0;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .section-pure-white-bg {
-  background: #FFFFFF !important;
+  background: #ffffff !important;
 }
 .section-secondary-bg {
-  background: #F9FAFB !important;
+  background: #f9fafb !important;
 }
 #slider_1 {
   text-align: left;
@@ -1294,12 +1294,12 @@ hr.space {
   width: 100%;
 }
 #slider_1 .slider-content h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 100px;
   line-height: 105px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 #slider_1 .slider-content h2 span {
   background: #f69323;
@@ -1313,17 +1313,17 @@ hr.space {
   opacity: 1;
 }
 #slider_1 .slider-content h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 65px;
   line-height: 65px;
   letter-spacing: 0.02em;
   margin-top: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 #slider_1 .slider-content p {
-  font-family: 'Poppins', sans-serif;
-  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 0;
@@ -1332,7 +1332,7 @@ hr.space {
   margin-top: 30px;
   font-weight: 600;
   text-align: center;
-  background: #FFFFFF;
+  background: #ffffff;
   color: #f69323;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1348,7 +1348,7 @@ hr.space {
 }
 #slider_1 .slider-content a.btn-slider:hover {
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 #slider_1 .slider-content a.btn-slider-2 {
   margin-top: 30px;
@@ -1356,7 +1356,7 @@ hr.space {
   font-weight: 600;
   text-align: center;
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -1370,7 +1370,7 @@ hr.space {
   transition: all 0.2s ease-out;
 }
 #slider_1 .slider-content a.btn-slider-2:hover {
-  background: #FFFFFF;
+  background: #ffffff;
   color: #f69323;
 }
 #slider_1 .owl-controls .owl-nav div {
@@ -1412,31 +1412,31 @@ hr.space {
   width: 100%;
 }
 #slider_2 .slider-content h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 60px;
   line-height: 62px;
   font-weight: 700;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 #slider_2 .slider-content h2 span {
   background: rgba(0, 0, 0, 0.5);
   padding: 3px 6px;
 }
 #slider_2 .slider-content h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 32px;
   letter-spacing: 0.02em;
   margin-top: 32px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 #slider_2 .slider-content a.btn-slider {
   margin-top: 18px;
   background: #f69323;
   border: 2px solid #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
   height: 46px;
   line-height: 30px;
   padding-left: 28px;
@@ -1453,14 +1453,14 @@ hr.space {
 #slider_2 .slider-content a.btn-slider:hover {
   border: 2px solid #f69323;
   background: #dd7a09;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 #slider_2 .slider-content a.btn-slider-2 {
   margin-top: 18px;
   margin-left: 18px;
-  background: #FFFFFF;
-  border: 2px solid #FFFFFF;
-  color: #1A1A1A;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  color: #1a1a1a;
   height: 46px;
   line-height: 30px;
   padding-left: 28px;
@@ -1475,9 +1475,9 @@ hr.space {
   background-clip: padding-box;
 }
 #slider_2 .slider-content a.btn-slider-2:hover {
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   background: #e6e6e6;
-  color: #1A1A1A;
+  color: #1a1a1a;
 }
 #slider_2 .owl-controls {
   position: relative;
@@ -1544,7 +1544,7 @@ hr.space {
   background-clip: padding-box;
   background: #f69323;
   border: 2px solid #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
   font-size: 20px;
   font-weight: 600;
@@ -1583,7 +1583,7 @@ hr.space {
 }
 .counter-layout-1 {
   border: 1px solid #dfdfdf;
-  background: #F9FAFB;
+  background: #f9fafb;
   border-top: 0px;
   padding: 20px;
 }
@@ -1598,7 +1598,7 @@ hr.space {
   display: block;
   font-size: 46px;
   font-weight: 300;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 46px;
   margin: 5px 0;
   position: relative;
@@ -1607,18 +1607,18 @@ hr.space {
 }
 .counter-layout-1 span.counter:after {
   position: absolute;
-  content: '+';
+  content: "+";
   font-size: 48px;
   display: inline-block;
   margin-left: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   color: #9a9a9a;
 }
 .counter-layout-1 span.counter_text {
   color: #eb464a;
   display: block;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   letter-spacing: 0.1em;
   line-height: 32px;
@@ -1635,7 +1635,7 @@ hr.space {
   border-right: 0px;
 }
 .repair-pricing-container {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 1px solid #dfdfdf;
   box-sizing: border-box;
   padding: 25px 30px;
@@ -1683,7 +1683,7 @@ hr.space {
 }
 .repair-pricing-container a.repair-price-plan-btn {
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
   border: 2px solid #f69323;
   padding: 10px 25px;
   font-weight: 600;
@@ -1699,7 +1699,7 @@ hr.space {
   transition: all 0.2s ease-out;
 }
 .repair-pricing-container:hover a.repair-price-plan-btn {
-  background: #FFFFFF;
+  background: #ffffff;
   color: #f69323;
 }
 .cta-section-3 {
@@ -1709,27 +1709,27 @@ hr.space {
 .cta-section-3 h2 {
   font-size: 25px;
   line-height: 32px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 600;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .cta-section-3 p {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.004em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .cta-section-3 a {
-  color: #FFFFFF;
+  color: #ffffff;
   background: none;
   line-height: 32px;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 0.02em;
   border: 0;
-  border-top: 2px solid #FFFFFF;
-  border-bottom: 2px solid #FFFFFF;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
   padding: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1743,10 +1743,10 @@ hr.space {
   transition: all 0.2s ease-out;
 }
 .newsletter-footer {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .newsletter-footer h3 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 24px;
 }
 .newsletter-footer p {
@@ -1760,7 +1760,7 @@ hr.space {
   position: relative;
 }
 .newsletter-footer .newsletter-form > input {
-  background: #FFFFFF;
+  background: #ffffff;
   border: 0;
   color: #333333;
   height: 42px;
@@ -1770,7 +1770,7 @@ hr.space {
 .newsletter-footer .newsletter-form > button {
   background: #f69323;
   border: 0;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   height: 42px;
   position: absolute;
@@ -1789,10 +1789,10 @@ hr.space {
 .testimonial-block h4 {
   font-size: 30px;
   line-height: 36px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .testimonial-block p {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .btn-social-icon {
   height: 42px;
@@ -1803,7 +1803,7 @@ hr.space {
 }
 .btn-social-icon .fa {
   line-height: 42px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .btn-goggle-plus {
   background-color: #26b84b;
@@ -1846,7 +1846,7 @@ hr.space {
 .section-contact-block .contact-info .icon-container {
   display: inline-block;
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 32px;
   height: 32px;
   line-height: 32px;
@@ -1868,12 +1868,12 @@ hr.space {
 .section-contact-block .contact-form-block {
   padding: 0 0 0 0px;
 }
-.section-contact-block #contact-form input[type=text],
-.section-contact-block #contact-form input[type=email],
-.section-contact-block #contact-form input[type=url],
-.section-contact-block #contact-form input[type=password] {
+.section-contact-block #contact-form input[type="text"],
+.section-contact-block #contact-form input[type="email"],
+.section-contact-block #contact-form input[type="url"],
+.section-contact-block #contact-form input[type="password"] {
   border: 0px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #eee;
   line-height: 42px;
   height: 42px;
   margin-bottom: 24px;
@@ -1895,10 +1895,10 @@ hr.space {
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-.section-contact-block #contact-form input[type=text]:focus,
-.section-contact-block #contact-form input[type=email]:focus,
-.section-contact-block #contact-form input[type=url]:focus,
-.section-contact-block #contact-form input[type=password]:focus {
+.section-contact-block #contact-form input[type="text"]:focus,
+.section-contact-block #contact-form input[type="email"]:focus,
+.section-contact-block #contact-form input[type="url"]:focus,
+.section-contact-block #contact-form input[type="password"]:focus {
   -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
@@ -1910,7 +1910,7 @@ hr.space {
 }
 .section-contact-block #contact-form textarea {
   border: 0px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #eee;
   padding-left: 2px;
   margin-bottom: 24px;
   -webkit-border-radius: 0;
@@ -1955,7 +1955,7 @@ hr.space {
 .page-header {
   margin: 0;
   padding: 80px 0 80px;
-  background-image: url('../images/header-bg.jpg');
+  background-image: url("../images/header-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1968,30 +1968,30 @@ hr.space {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.5);
-  content: '';
+  content: "";
   width: 100%;
   height: 2000px;
 }
 .page-header h3 {
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   font-size: 36px;
   line-height: 24px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 24px 0;
   text-transform: uppercase;
   letter-spacing: 0.02em;
 }
 .page-header .page-breadcrumb {
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.01em;
 }
 .page-header .page-breadcrumb a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .page-header .page-breadcrumb a:hover {
   color: #f69323;
@@ -2005,7 +2005,7 @@ hr.space {
 .single-post .single-post-content {
   margin-bottom: 30px;
   padding: 6px;
-  background: #F9FAFB;
+  background: #f9fafb;
 }
 .single-post .single-post-title {
   line-height: 24px;
@@ -2021,7 +2021,7 @@ hr.space {
 .readmore {
   border: 0px;
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -2033,7 +2033,7 @@ hr.space {
 .readmore-sm {
   border: 0px;
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -2046,7 +2046,7 @@ hr.space {
 /* 06. BLOG SINGLE PAGE */
 /***********************************************************************************************/
 .single-post-inner {
-  background: #F9FAFB;
+  background: #f9fafb;
   padding: 30px;
 }
 .post-inner-featured-content {
@@ -2072,7 +2072,7 @@ hr.space {
   padding: 4px 12px;
   margin-right: 3px;
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .custom-post-info {
   margin: 0;
@@ -2264,7 +2264,7 @@ img.centered {
 }
 .article-author {
   margin-top: 24px;
-  background: #F9FAFB;
+  background: #f9fafb;
   padding: 30px;
   min-height: 100px;
   border-bottom: 1px solid #dfdfdf;
@@ -2296,7 +2296,7 @@ img.centered {
 }
 .related-post {
   margin-top: 24px;
-  background: #F9FAFB;
+  background: #f9fafb;
   padding: 30px;
 }
 .related-post ul li {
@@ -2331,7 +2331,7 @@ ul.pagination li a:hover {
 }
 ul.pagination li a.current {
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
   border: 0px;
 }
 ul.pagination li:first-child {
@@ -2352,7 +2352,7 @@ ul.pagination li:last-child {
 }
 .comments-area {
   margin-top: 24px;
-  background: #F9FAFB;
+  background: #f9fafb;
   padding: 30px;
 }
 .article-add-comments {
@@ -2364,7 +2364,7 @@ ul.pagination li:last-child {
   text-align: center;
   color: #646e7a;
   border: 1px solid #dfdfdf;
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
@@ -2401,7 +2401,7 @@ ul.pagination li:last-child {
 }
 .commentslist li ol li::before,
 .commentslist li ul li::before {
-  content: '';
+  content: "";
   width: 2em;
   height: 1px;
   border-bottom: 1px dotted #dfdfdf;
@@ -2410,7 +2410,7 @@ ul.pagination li:last-child {
   top: 2em;
 }
 .commentslist li article {
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 12px;
 }
 .commentslist li article header {
@@ -2428,9 +2428,9 @@ ul.pagination li:last-child {
   position: absolute;
   right: 5px;
   top: 15px;
-  color: #F8F8F8;
+  color: #f8f8f8;
   font-size: 32px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .commentslist li article header h5 {
   margin-bottom: 12px;
@@ -2446,10 +2446,10 @@ ul.pagination li:last-child {
 .commentslist li article header h5 span {
   font-size: 12px;
   background: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 3px 5px;
   font-style: normal;
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 .commentslist li article .comment_text {
   padding-right: 24px;
@@ -2458,7 +2458,7 @@ ul.pagination li:last-child {
   width: 64px;
   height: 64px;
   float: right;
-  background: #FFFFFF;
+  background: #ffffff;
   margin: 2px;
   border: 1px solid #dfdfdf;
   padding: 2px;
@@ -2477,20 +2477,20 @@ ul.pagination li:last-child {
   margin: 48px 0;
 }
 .comments-nav-section .btn-primary {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .comments-nav-section .btn-primary:hover {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 #comment-form label {
   margin-bottom: 12px;
 }
-#comment-form input[type=text],
-#comment-form input[type=email],
-#comment-form input[type=url],
-#comment-form input[type=password] {
+#comment-form input[type="text"],
+#comment-form input[type="email"],
+#comment-form input[type="url"],
+#comment-form input[type="password"] {
   border: 0px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #eee;
   line-height: 42px;
   height: 42px;
   margin-bottom: 24px;
@@ -2512,10 +2512,10 @@ ul.pagination li:last-child {
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-#comment-form input[type=text]:focus,
-#comment-form input[type=email]:focus,
-#comment-form input[type=url]:focus,
-#comment-form input[type=password]:focus {
+#comment-form input[type="text"]:focus,
+#comment-form input[type="email"]:focus,
+#comment-form input[type="url"]:focus,
+#comment-form input[type="password"]:focus {
   -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
@@ -2526,7 +2526,7 @@ ul.pagination li:last-child {
 }
 #comment-form textarea {
   border: 0px;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #eee;
   padding: 12px;
   margin-bottom: 24px;
   -webkit-border-radius: 0;
@@ -2560,7 +2560,7 @@ ul.pagination li:last-child {
 /* 07. ABOUT US PAGE */
 /***********************************************************************************************/
 .section-how-we-work {
-  background: #F9FAFB;
+  background: #f9fafb;
   background-image: none;
   background-repeat: no-repeat;
   background-position: center center;
@@ -2575,7 +2575,7 @@ ul.pagination li:last-child {
   width: 100%;
   height: 5000px;
   overflow: hidden;
-  content: '';
+  content: "";
   background: rgba(255, 255, 255, 0.95);
   position: absolute;
 }
@@ -2604,7 +2604,10 @@ ul.pagination li:last-child {
   color: #808080;
   opacity: 0.5;
 }
-.section-how-we-work .service-block-bg:hover .service-block a.service_read_more {
+.section-how-we-work
+  .service-block-bg:hover
+  .service-block
+  a.service_read_more {
   color: #f69323;
 }
 .section-how-we-work .service-block {
@@ -2616,7 +2619,7 @@ ul.pagination li:last-child {
 .section-how-we-work .service-block h2 {
   font-size: 24px;
   color: #24262a;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 0.01em;
   font-weight: 500;
   text-transform: uppercase;
@@ -2628,7 +2631,7 @@ ul.pagination li:last-child {
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   position: absolute;
-  content: '';
+  content: "";
   bottom: -12px;
   left: 0;
   display: block;
@@ -2644,15 +2647,15 @@ ul.pagination li:last-child {
   font-weight: 400;
   text-transform: capitalize;
   position: relative;
-  color: #1A1A1A;
+  color: #1a1a1a;
   display: inline-block;
 }
 .section-how-we-work .service-block a.service_read_more:after {
   position: absolute;
-  content: '';
+  content: "";
   width: 60px;
   height: 1px;
-  background: #1A1A1A;
+  background: #1a1a1a;
   top: 14px;
   right: -72px;
 }
@@ -2689,7 +2692,7 @@ ul.pagination li:last-child {
   position: absolute;
   top: 0;
   left: 0;
-  content: '';
+  content: "";
   background: #f69323;
   opacity: 0.01;
   width: 100%;
@@ -2703,14 +2706,14 @@ ul.pagination li:last-child {
   vertical-align: middle;
 }
 .section-our-team .team-layout-1 h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 12px 0 0 0;
   font-size: 20px;
   letter-spacing: 0.03em;
   font-weight: 600;
 }
 .section-our-team .team-layout-1 h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #646e7a;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -2730,7 +2733,7 @@ ul.pagination li:last-child {
   border: 1px solid #dfdfdf;
   display: inline-block;
   margin: 0 2px;
-  background: #FFFFFF;
+  background: #ffffff;
   width: 32px;
   height: 32px;
   text-align: center;
@@ -2750,7 +2753,7 @@ ul.pagination li:last-child {
   position: absolute;
   top: 0;
   left: 0;
-  content: '';
+  content: "";
   background: #f69323;
   opacity: 0.2;
   width: 100%;
@@ -2773,7 +2776,7 @@ ul.pagination li:last-child {
   text-align: center !important;
 }
 .section-counter {
-  background-image: url("../images/counter_bg.jpg");
+  background-image: url("../img-new/counter_bg.png");
   background-repeat: no-repeat;
   background-position: 0 70%;
   background-size: cover;
@@ -2786,7 +2789,7 @@ ul.pagination li:last-child {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.7);
-  content: '';
+  content: "";
   width: 100%;
   height: 2000px;
 }
@@ -2796,9 +2799,9 @@ ul.pagination li:last-child {
 .section-counter .counter-block-1 h4 {
   margin-top: 12px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
   letter-spacing: 0.03em;
   position: relative;
 }
@@ -2809,9 +2812,9 @@ ul.pagination li:last-child {
   display: block;
   margin-top: 48px;
   font-size: 55px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .section-counter .counter-block-1 .icon {
   font-size: 42px;
@@ -2821,7 +2824,7 @@ ul.pagination li:last-child {
   display: none;
 }
 .section-process {
-  background-image: url("../images/process_bg.jpg");
+  background-image: url("../img-new/process_bg1.png");
   background-repeat: no-repeat;
   background-position: 0 70%;
   background-size: cover;
@@ -2834,7 +2837,7 @@ ul.pagination li:last-child {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.7);
-  content: '';
+  content: "";
   width: 100%;
   height: 2000px;
 }
@@ -2851,7 +2854,7 @@ ul.pagination li:last-child {
   font-weight: 700;
   margin-bottom: 15px;
   padding-left: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
   text-transform: uppercase;
 }
@@ -2867,13 +2870,13 @@ ul.pagination li:last-child {
   position: absolute;
 }
 .section-process .process-holder p {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .section-process:hover .process-holder h3 {
   color: #f69323;
 }
 .section-process:hover .process-holder h3 .heading-numbers {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .repair-latest .latest-date {
   border: 2px solid #f69323;
@@ -2953,7 +2956,7 @@ ul.pagination li:last-child {
 }
 .section-quote-form .quote-form-block .quote-form-btn {
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
   border: 2px solid #f69323;
   padding: 10px 30px;
   font-weight: 600;
@@ -2970,7 +2973,7 @@ ul.pagination li:last-child {
   transition: all 0.2s ease-out;
 }
 .section-quote-form .quote-form-block .quote-form-btn:hover {
-  background: #FFFFFF;
+  background: #ffffff;
   color: #f69323;
 }
 .quote-call-section {
@@ -2987,7 +2990,7 @@ ul.pagination li:last-child {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.7);
-  content: '';
+  content: "";
   width: 100%;
   height: 2000px;
 }
@@ -3004,7 +3007,7 @@ ul.pagination li:last-child {
   font-weight: 500;
 }
 .section-client-testimonial {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .section-client-testimonial h3 {
   margin-bottom: 35px;
@@ -3035,7 +3038,7 @@ ul.pagination li:last-child {
 }
 .section-client-testimonial .testimony-layout-1 p {
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-style: italic;
   font-weight: 500i;
@@ -3052,7 +3055,11 @@ ul.pagination li:last-child {
   margin: 24px 0 0 0;
   text-align: center;
 }
-.section-client-testimonial .testimonial-container .owl-controls .owl-dots .owl-dot {
+.section-client-testimonial
+  .testimonial-container
+  .owl-controls
+  .owl-dots
+  .owl-dot {
   display: inline-block;
   padding: 2px;
   width: 14px;
@@ -3061,10 +3068,20 @@ ul.pagination li:last-child {
   border: 1px solid #dfdfdf;
   margin: 0 4px;
 }
-.section-client-testimonial .testimonial-container .owl-controls .owl-dots .owl-dot span {
+.section-client-testimonial
+  .testimonial-container
+  .owl-controls
+  .owl-dots
+  .owl-dot
+  span {
   display: block;
 }
-.section-client-testimonial .testimonial-container .owl-controls .owl-dots .active span {
+.section-client-testimonial
+  .testimonial-container
+  .owl-controls
+  .owl-dots
+  .active
+  span {
   padding: 2px;
   width: 8px;
   height: 8px;
@@ -3084,7 +3101,7 @@ ul.pagination li:last-child {
 .section-gallery-block-parallax {
   background-attachment: scroll;
   background-color: transparent;
-  background-image: url('../images/bg-geometry.png');
+  background-image: url("../images/bg-geometry.png");
   background-repeat: repeat;
   background-size: initial;
 }
@@ -3120,7 +3137,7 @@ ul.pagination li:last-child {
   position: absolute;
   top: 0;
   left: 0;
-  content: '';
+  content: "";
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
@@ -3128,12 +3145,12 @@ ul.pagination li:last-child {
 }
 .gallery-light-box .gallery-img:after {
   font-family: FontAwesome;
-  content: '\f1c5';
+  content: "\f1c5";
   position: absolute;
   left: 150%;
   margin-left: -21px;
   top: -64px;
-  background: #FFFFFF;
+  background: #ffffff;
   color: #f69323;
   text-align: center;
   width: 42px;
@@ -3208,7 +3225,7 @@ ul.pagination li:last-child {
   opacity: 1;
 }
 .section-client-logo .logo-layout-2 .logo {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .section-client-logo .logo-layout-2 .logo img {
   -webkit-border-radius: 0;
@@ -3257,13 +3274,13 @@ ul.pagination li:last-child {
   width: 8px;
   height: 8px;
   background: #f79f3b;
-  content: '';
+  content: "";
 }
 /***********************************************************************************************/
 /* 12. 404 PAGE */
 /***********************************************************************************************/
 .section-404 {
-  background: #F9FAFB;
+  background: #f9fafb;
 }
 .message-container-404 {
   margin: 48px 0;
@@ -3272,7 +3289,7 @@ ul.pagination li:last-child {
   font-size: 170px;
   font-weight: 600;
   letter-spacing: 0.1em;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   margin: 80px 0;
   color: #f69323;
@@ -3294,7 +3311,7 @@ ul.pagination li:last-child {
 /* 13. FOOTER */
 /***********************************************************************************************/
 .footer-widget-area-bg {
-  background-image: url('../images/footer-bg.jpg');
+  background-image: url("../img-new/footer-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3303,26 +3320,26 @@ ul.pagination li:last-child {
 }
 .footer-widget-area-bg:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 2000px;
   background: rgba(26, 26, 26, 0.9);
-  top: 0 ;
+  top: 0;
   left: 0;
   transition: all 0.3s ease-in-out;
 }
 .footer-widget-area-bg .footer-widget-area {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .footer-widget-area-bg .footer-widget-area .footer-logo {
   margin-bottom: 20px;
 }
 .footer-widget-area-bg .footer-widget-area > h3 {
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .footer-widget-area-bg .footer-widget-area a {
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
 }
 .footer-widget-area-bg .footer-widget-area .divider-line {
@@ -3338,7 +3355,7 @@ ul.pagination li:last-child {
   width: 70px;
 }
 .footer-widget-area-bg .footer-widget-area .contact-details {
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   overflow: hidden;
 }
@@ -3355,12 +3372,20 @@ ul.pagination li:last-child {
   line-height: 30px;
   width: 30px;
 }
-.footer-widget-area-bg .footer-widget-area .contact-details .social-icons a:hover {
+.footer-widget-area-bg
+  .footer-widget-area
+  .contact-details
+  .social-icons
+  a:hover {
   border: 2px solid #f69323;
   background: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.footer-widget-area-bg .footer-widget-area .contact-details .social-icons a.margin-right-0 {
+.footer-widget-area-bg
+  .footer-widget-area
+  .contact-details
+  .social-icons
+  a.margin-right-0 {
   margin-right: 0px;
 }
 .footer-widget-area-bg .footer-widget-area .color-primary a {
@@ -3383,7 +3408,7 @@ ul.pagination li:last-child {
   background: #1a1a1a;
   border-top: 1px solid #444444;
   padding: 34px 0 36px;
-  color: #C2C2C2;
+  color: #c2c2c2;
 }
 .footer-section span a.color-primary {
   color: #f69323;
@@ -3411,7 +3436,7 @@ ul.pagination li:last-child {
 .footer-section .footer-nav ul li:after {
   background: #f69323;
   position: absolute;
-  content: '';
+  content: "";
   top: 7px;
   right: -20px;
   width: 4px;
@@ -3420,14 +3445,14 @@ ul.pagination li:last-child {
 .footer-section .footer-nav ul li:last-child:after {
   background: transparent;
   position: absolute;
-  content: '';
+  content: "";
   top: 7px;
   right: -20px;
   width: 4px;
   height: 4px;
 }
 .footer-section .footer-nav a {
-  color: #C2C2C2;
+  color: #c2c2c2;
 }
 .footer-section .footer-nav a:hover {
   color: #f69323;
@@ -3436,7 +3461,7 @@ ul.pagination li:last-child {
 /* 14. SIDEBAR & WIDGETS */
 /***********************************************************************************************/
 .widget {
-  background: #F9FAFB;
+  background: #f9fafb;
   margin-bottom: 30px;
   padding: 20px;
 }
@@ -3482,7 +3507,7 @@ ul.pagination li:last-child {
   background-clip: padding-box;
   background: #f69323;
   border-right: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bold;
   width: 10%;
   padding: 0 20px;
@@ -3495,7 +3520,7 @@ ul.pagination li:last-child {
   height: 42px;
   border: 0px;
   box-shadow: none;
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #eee;
   width: 100%;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -3569,7 +3594,7 @@ ul.pagination li:last-child {
 .widget-recent-tags li a:active {
   background: transparent;
   border: 1px solid #f69323;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 /***********************************************************************************************/
 /* Widget Link Color */
@@ -3612,7 +3637,7 @@ ul.pagination li:last-child {
   border-right: 1px solid #dfdfdf;
 }
 #calendar_wrap #wp-calendar th {
-  background: none repeat scroll 0 0 #F9F9F9;
+  background: none repeat scroll 0 0 #f9f9f9;
   border-bottom: 1px solid #dfdfdf;
   border-right: 1px solid #dfdfdf;
 }
@@ -3643,7 +3668,7 @@ ul.pagination li:last-child {
   transition: all 0.2s ease-out;
 }
 #calendar_wrap #wp-calendar tbody tr td:hover {
-  background: #FAFAFA;
+  background: #fafafa;
 }
 #calendar_wrap #wp-calendar tbody .pad {
   background: none;
@@ -3667,7 +3692,7 @@ ul.pagination li:last-child {
 }
 #calendar_wrap #wp-calendar #today {
   background-color: #f69323;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: bold;
 }
 /***********************************************************************************************/
@@ -3696,8 +3721,8 @@ ul.pagination li:last-child {
     width: 100%;
     text-align: center;
     clear: both;
-    float: none ;
-    margin: 0 ;
+    float: none;
+    margin: 0;
   }
   .navbar-default .navbar-toggle span.icon-bar {
     height: 1px;
@@ -3718,7 +3743,7 @@ ul.pagination li:last-child {
     float: none;
   }
   .main-header {
-    background: #2C2C2C;
+    background: #2c2c2c;
     position: relative;
   }
   .sticky-wrapper {
@@ -3786,7 +3811,7 @@ ul.pagination li:last-child {
   .page-header {
     padding: 80px 0;
   }
-  .event-search-box input[type=text] {
+  .event-search-box input[type="text"] {
     margin-bottom: 12px;
   }
   .event_wrapper {
@@ -3937,14 +3962,21 @@ ul.pagination li:last-child {
   .navbar-default .navbar-nav li ul.drop-down li a,
   .navbar-default .navbar-nav li ul.drop-down li ul.drop-down.level3 li a {
     background: none;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 16px;
     text-transform: inherit;
     padding: 4px 20px;
   }
   .navbar-default .navbar-nav li ul.drop-down li a:hover,
-  .navbar-default .navbar-nav li ul.drop-down li ul.drop-down.level3 li a:hover {
-    color: #FFFFFF;
+  .navbar-default
+    .navbar-nav
+    li
+    ul.drop-down
+    li
+    ul.drop-down.level3
+    li
+    a:hover {
+    color: #ffffff;
   }
   .navbar-default .navbar-nav {
     margin: 0px;
@@ -3957,13 +3989,13 @@ ul.pagination li:last-child {
     color: #f69323;
   }
   .navbar-default .navbar-nav .drop-down li a {
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .logo {
     text-align: center;
   }
   .main-header {
-    background: #2C2C2C;
+    background: #2c2c2c;
     position: relative;
   }
   .sticky-wrapper {
@@ -4024,7 +4056,7 @@ ul.pagination li:last-child {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (min-width: 0px) and (max-width: 479px) {
   .main-header {
-    background: #2C2C2C;
+    background: #2c2c2c;
     position: relative;
   }
   .sticky-wrapper {
@@ -4061,7 +4093,7 @@ ul.pagination li:last-child {
     color: #f69323;
   }
   .navbar-default .navbar-nav .drop-down li a {
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .logo {
     text-align: center;
@@ -4135,7 +4167,10 @@ ul.pagination li:last-child {
     margin-top: 0px;
     margin-bottom: 24px;
   }
-  .section-how-we-work .service-block-bg .service-block a.service_read_more:after {
+  .section-how-we-work
+    .service-block-bg
+    .service-block
+    a.service_read_more:after {
     display: none;
   }
   .section-counter {
