@@ -43,3 +43,19 @@
 .services-row-data-row .highlight-block .highlight-block-inner > i {
   color: #f69323;
 }
+.repair-header-top .repair-icon-box {
+  margin-top: 15px;
+}
+.repair-header-top .repair-col-logo .repair-logo {
+  line-height: 70px;
+}
+.repair-header-top .btn-quote {
+  margin-top: 15px;
+}
+.repair-header-top .btn-quote .btn-request_quote {
+  font-size: 20px;
+  padding: 7px 14px;
+}
+.bold-font {
+  font-weight: bold;
+}
